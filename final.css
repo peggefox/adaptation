@@ -1,0 +1,316 @@
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #172242; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFBF76; 
+}
+
+
+/*Text*/
+.monospace 
+{font-family: "Lucida Console", Courier, monospace; line-height:2;}
+
+
+
+.groove {border:10px groove black; padding:5px; margin:5px;}
+.groove2 {border:10px groove black; padding:0px; margin:5px;}
+
+.double {border: 25px double #172242; padding: 25px; margin:25px; float: left;}
+.right {border: 20px solid #172242; padding: 5px; margin:30px; float: right;}
+.double2 {border: 25px double #172242; padding: 5px; margin:25px; float: left;}
+.double3 {border: 25px double #172242; padding: 1px; margin:25px; float: left;}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* body {background:linear-gradient(20deg, #A0C4E5, #4382BC, #125089, #0A4478);}*/
+
+body { 
+  background-color: #665a82;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+/*background-image: url('city2.jpg');*/
+
+nav{
+margin-top: 25px;	
+}
+.centercolumn {
+float: center;
+width: 85%;
+height:280px;
+padding-left: 110px;
+}
+
+.centercolumn2 {
+float: center;
+width: 85%;
+height:140px;
+padding-left: 110px;
+}
+
+.Introbox
+ {
+background-color: white;
+margin-top: 60px;
+width: 105%;
+height: 200%;
+margin-c: 10px;
+padding-bottom: 30px;
+padding-top: 15px;
+}
+
+
+
+.borderbox
+ {
+background-color: white;
+margin-top: 45px;
+width: 300%;
+height: 5%
+}
+
+.innerborderbox
+ {
+background-color: #172242;
+margin-top: -40px;
+width: 300%;
+height: 2%
+}
+
+
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*Video Section*/
+
+.video1 {
+  position: absolute;
+  left: 150px;
+  top: 750px;
+}
+
+
+.videotext {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 34%;
+  left: 700px;
+  top: 775px;
+}
+
+.video2 {
+  position: absolute;
+  left: 150px;
+  top: 1175px;
+}
+
+
+.videotext2 {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 34%;
+  left: 700px;
+  top: 1225px;
+} 
+  
+.video3 {
+  position: absolute;
+  left: 150px;
+  top: 1575px;
+}
+
+
+.videotext3 {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 29%;
+  left: 700px;
+top: 1625px;
+}
+  
+.video4 {
+  position: absolute;
+  left: 150px;
+  top: 1975px;
+}
+
+
+.videotext4 {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 39%;
+  left: 700px;
+  top: 2025px;
+}
+  
+  /*animation Section*/
+
+.video1 {
+  position: absolute;
+  left: 150px;
+  top: 750px;
+}
+
+
+.videotexta {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 40%;
+  left: 700px;
+  top: 775px;
+}
+
+.video2 {
+  position: absolute;
+  left: 150px;
+  top: 1175px;
+}
+
+
+.videotextb {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 45%;
+  left: 700px;
+  top: 1225px;
+} 
+  
+.video3 {
+  position: absolute;
+  left: 150px;
+  top: 1575px;
+}
+
+
+.videotextc {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 29%;
+  left: 700px;
+top: 1625px;
+}
+  
+.video4 {
+  position: absolute;
+  left: 150px;
+  top: 1975px;
+}
+
+
+.videotextd {
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 40%;
+  left: 700px;
+  top: 2025px;
+}
+  
+  
+/*Software Section*/
+
+.soft1 {
+  position: absolute;
+  left: 150px;
+  top: 750px;
+}
+
+
+.softtext {
+  position: absolute;
+  background-color: white;
+  width: 32%;
+  height: 39%;
+  left: 700px;
+  top: 775px;
+}
+
+.soft2 {
+  position: absolute;
+  left: 150px;
+  top: 1175px;
+}
+
+
+.softtext2 {
+  position: absolute;
+  background-color: white;
+  width: 32%;
+  height: 39%;
+  left: 700px;
+  top: 1225px;
+} 
+  
+.soft3 {
+  position: absolute;
+  left: 150px;
+  top: 1575px;
+}
+
+
+.softtext3 {
+  position: absolute;
+  background-color: white;
+  width: 31%;
+  height: 33%;
+  left: 700px;
+top: 1625px;
+}
+  
+.soft4 {
+  position: absolute;
+  left: 150px;
+  top: 1975px;
+}
+
+
+.softtext4 {
+  position: absolute;
+  background-color: white;
+  width: 31%;
+  height: 44%;
+  left: 700px;
+  top: 2025px;
+}
